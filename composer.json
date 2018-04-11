@@ -1,0 +1,23 @@
+{
+    "name": "polus/ellipse-middleware-dispatcher",
+    "description": "ellipse middleware dispatcher for polus",
+    "homepage": "https://github.com/polusphp/ellipse-middleware-dispatcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@oak-valley.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "polus/middleware-dispatcher": "^1.0",
+        "ellipse/dispatcher": "^1.6",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polus\\MiddlewareDispatcher\\Ellipse\\": "src/"
+        }
+    }
+}
